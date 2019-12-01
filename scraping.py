@@ -29,7 +29,6 @@ def add_follower_info(i, df, driver):
             /div/div/div/main/div/div/div/div/div/div[2]/
             section/div/div/div/div['''+str(i+1)+''']/div/div/
             div/div[2]/div[1]/div[1]/a/div/div[1]/div[1]/span''')
-            
     name = name.text
 
     # Get follower username
